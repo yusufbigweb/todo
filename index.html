@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Todo List</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 id="main-heading">Todo List</h1>
+            <span id="add-the-task">Plaese Add the Task</span>
+            <span id="suc-add"></span>
+            <div id="inp-container">
+                <input type="text" id="inputFild" placeholder="Enter todo"> <button id="btn-add"
+                    onclick="addTodo()">Add</button>
+            </div>
+            <ul id="list-container"></ul>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+        <!-- Task Status -->
+
+        <div class="counter-container">
+            <div id="task-container">
+                Completed: <span id="completed-task">0</span> | Uncompleted: <span id="uncompleted-task">0</span>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
+
+
+<!-- <i class="fa-solid fa-xmark"></i> -->
