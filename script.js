@@ -1,3 +1,5 @@
+//JavaScript Script Here...
+
 const inputBox = document.getElementById("inputFild");
 const listContainer = document.getElementById("list-container");
 
